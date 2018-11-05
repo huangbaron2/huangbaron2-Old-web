@@ -14,10 +14,11 @@ body {
 
 .donateplz {
   width: 150px;
-  background-image: url(img/paypaldonate.png);
+  /*--background-image: url(img/paypaldonate.png);*/
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 10px;
 }
 
 .ytho {
@@ -44,9 +45,9 @@ body {
 .vidpp iframe {
   position: absolute;
   left: 365px;
-  top: 25px;
+  top: 10px;
   right: 25px;
-  bottom: 25;
+  bottom: 25px;
   height: 40%;
   width: 40%;
 }
