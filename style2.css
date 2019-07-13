@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul {
+  margin: 0;
+}
+
+.mainheader1 {
+  background-color: rgba(0, 0, 0, .1);
+  background-image: url("https://media.swncdn.com/cms/CW/faith/13189-Lottery1.1200w.tn.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
