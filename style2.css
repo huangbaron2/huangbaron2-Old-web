@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
 }
 
 html, body {
@@ -10,14 +10,56 @@ html, body {
   padding: 0;
 }
 
-.navigation ul {
+.videodiv {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav ul {
   margin: 0;
 }
 
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.navigationtop {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border-bottom: 2px solid rgba(25, 25, 255, 1);
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navigationtop{
+  padding: 0 5%;
+}
+
 .mainheader1 {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .3);
   background-image: url("https://media.swncdn.com/cms/CW/faith/13189-Lottery1.1200w.tn.jpg");
   background-blend-mode: multiply;
   background-size: cover;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+}
+
+.videotitle {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3em;
+}
+
+.lotteryname {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
